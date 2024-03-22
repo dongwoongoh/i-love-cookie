@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002317242BAD9C660059B184 /* vpnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317232BAD9C660059B184 /* vpnApp.swift */; };
+		002317262BAD9C660059B184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317252BAD9C660059B184 /* ContentView.swift */; };
+		002317282BAD9C680059B184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002317272BAD9C680059B184 /* Assets.xcassets */; };
+		0023172B2BAD9C680059B184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0023172A2BAD9C680059B184 /* Preview Assets.xcassets */; };
+		002317352BAD9C680059B184 /* vpnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317342BAD9C680059B184 /* vpnTests.swift */; };
+		0023173F2BAD9C680059B184 /* vpnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023173E2BAD9C680059B184 /* vpnUITests.swift */; };
+		002317412BAD9C680059B184 /* vpnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317402BAD9C680059B184 /* vpnUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002317312BAD9C680059B184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002317182BAD9C650059B184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0023171F2BAD9C650059B184;
+			remoteInfo = vpn;
+		};
+		0023173B2BAD9C680059B184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002317182BAD9C650059B184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0023171F2BAD9C650059B184;
+			remoteInfo = vpn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002317202BAD9C650059B184 /* vpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002317232BAD9C660059B184 /* vpnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnApp.swift; sourceTree = "<group>"; };
+		002317252BAD9C660059B184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		002317272BAD9C680059B184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0023172A2BAD9C680059B184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		002317302BAD9C680059B184 /* vpnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002317342BAD9C680059B184 /* vpnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnTests.swift; sourceTree = "<group>"; };
+		0023173A2BAD9C680059B184 /* vpnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0023173E2BAD9C680059B184 /* vpnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnUITests.swift; sourceTree = "<group>"; };
+		002317402BAD9C680059B184 /* vpnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0023171D2BAD9C650059B184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0023172D2BAD9C680059B184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002317372BAD9C680059B184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002317172BAD9C650059B184 = {
+			isa = PBXGroup;
+			children = (
+				002317222BAD9C650059B184 /* vpn */,
+				002317332BAD9C680059B184 /* vpnTests */,
+				0023173D2BAD9C680059B184 /* vpnUITests */,
+				002317212BAD9C650059B184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002317212BAD9C650059B184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002317202BAD9C650059B184 /* vpn.app */,
+				002317302BAD9C680059B184 /* vpnTests.xctest */,
+				0023173A2BAD9C680059B184 /* vpnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002317222BAD9C650059B184 /* vpn */ = {
+			isa = PBXGroup;
+			children = (
+				002317232BAD9C660059B184 /* vpnApp.swift */,
+				002317252BAD9C660059B184 /* ContentView.swift */,
+				002317272BAD9C680059B184 /* Assets.xcassets */,
+				002317292BAD9C680059B184 /* Preview Content */,
+			);
+			path = vpn;
+			sourceTree = "<group>";
+		};
+		002317292BAD9C680059B184 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0023172A2BAD9C680059B184 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		002317332BAD9C680059B184 /* vpnTests */ = {
+			isa = PBXGroup;
+			children = (
+				002317342BAD9C680059B184 /* vpnTests.swift */,
+			);
+			path = vpnTests;
+			sourceTree = "<group>";
+		};
+		0023173D2BAD9C680059B184 /* vpnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0023173E2BAD9C680059B184 /* vpnUITests.swift */,
+				002317402BAD9C680059B184 /* vpnUITestsLaunchTests.swift */,
+			);
+			path = vpnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0023171F2BAD9C650059B184 /* vpn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002317442BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpn" */;
+			buildPhases = (
+				0023171C2BAD9C650059B184 /* Sources */,
+				0023171D2BAD9C650059B184 /* Frameworks */,
+				0023171E2BAD9C650059B184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vpn;
+			productName = vpn;
+			productReference = 002317202BAD9C650059B184 /* vpn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0023172F2BAD9C680059B184 /* vpnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002317472BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpnTests" */;
+			buildPhases = (
+				0023172C2BAD9C680059B184 /* Sources */,
+				0023172D2BAD9C680059B184 /* Frameworks */,
+				0023172E2BAD9C680059B184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002317322BAD9C680059B184 /* PBXTargetDependency */,
+			);
+			name = vpnTests;
+			productName = vpnTests;
+			productReference = 002317302BAD9C680059B184 /* vpnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		002317392BAD9C680059B184 /* vpnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0023174A2BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpnUITests" */;
+			buildPhases = (
+				002317362BAD9C680059B184 /* Sources */,
+				002317372BAD9C680059B184 /* Frameworks */,
+				002317382BAD9C680059B184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0023173C2BAD9C680059B184 /* PBXTargetDependency */,
+			);
+			name = vpnUITests;
+			productName = vpnUITests;
+			productReference = 0023173A2BAD9C680059B184 /* vpnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002317182BAD9C650059B184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0023171F2BAD9C650059B184 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0023172F2BAD9C680059B184 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0023171F2BAD9C650059B184;
+					};
+					002317392BAD9C680059B184 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0023171F2BAD9C650059B184;
+					};
+				};
+			};
+			buildConfigurationList = 0023171B2BAD9C650059B184 /* Build configuration list for PBXProject "vpn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002317172BAD9C650059B184;
+			productRefGroup = 002317212BAD9C650059B184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0023171F2BAD9C650059B184 /* vpn */,
+				0023172F2BAD9C680059B184 /* vpnTests */,
+				002317392BAD9C680059B184 /* vpnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0023171E2BAD9C650059B184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0023172B2BAD9C680059B184 /* Preview Assets.xcassets in Resources */,
+				002317282BAD9C680059B184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0023172E2BAD9C680059B184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002317382BAD9C680059B184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0023171C2BAD9C650059B184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002317262BAD9C660059B184 /* ContentView.swift in Sources */,
+				002317242BAD9C660059B184 /* vpnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0023172C2BAD9C680059B184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002317352BAD9C680059B184 /* vpnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002317362BAD9C680059B184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0023173F2BAD9C680059B184 /* vpnUITests.swift in Sources */,
+				002317412BAD9C680059B184 /* vpnUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002317322BAD9C680059B184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0023171F2BAD9C650059B184 /* vpn */;
+			targetProxy = 002317312BAD9C680059B184 /* PBXContainerItemProxy */;
+		};
+		0023173C2BAD9C680059B184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0023171F2BAD9C650059B184 /* vpn */;
+			targetProxy = 0023173B2BAD9C680059B184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002317422BAD9C680059B184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002317432BAD9C680059B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002317452BAD9C680059B184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vpn/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002317462BAD9C680059B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vpn/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		002317482BAD9C680059B184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vpn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vpn";
+			};
+			name = Debug;
+		};
+		002317492BAD9C680059B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vpn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vpn";
+			};
+			name = Release;
+		};
+		0023174B2BAD9C680059B184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vpn;
+			};
+			name = Debug;
+		};
+		0023174C2BAD9C680059B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MC48HP7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mad.vpnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vpn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0023171B2BAD9C650059B184 /* Build configuration list for PBXProject "vpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002317422BAD9C680059B184 /* Debug */,
+				002317432BAD9C680059B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002317442BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002317452BAD9C680059B184 /* Debug */,
+				002317462BAD9C680059B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002317472BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002317482BAD9C680059B184 /* Debug */,
+				002317492BAD9C680059B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0023174A2BAD9C680059B184 /* Build configuration list for PBXNativeTarget "vpnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0023174B2BAD9C680059B184 /* Debug */,
+				0023174C2BAD9C680059B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002317182BAD9C650059B184 /* Project object */;
+}
