@@ -14,6 +14,8 @@
 		002317352BAD9C680059B184 /* vpnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317342BAD9C680059B184 /* vpnTests.swift */; };
 		0023173F2BAD9C680059B184 /* vpnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023173E2BAD9C680059B184 /* vpnUITests.swift */; };
 		002317412BAD9C680059B184 /* vpnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317402BAD9C680059B184 /* vpnUITestsLaunchTests.swift */; };
+		002317502BADB8D20059B184 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023174F2BADB8D20059B184 /* CircleImage.swift */; };
+		002317522BADBA350059B184 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002317512BADBA350059B184 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0023173A2BAD9C680059B184 /* vpnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0023173E2BAD9C680059B184 /* vpnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnUITests.swift; sourceTree = "<group>"; };
 		002317402BAD9C680059B184 /* vpnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0023174F2BADB8D20059B184 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		002317512BADBA350059B184 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				002317232BAD9C660059B184 /* vpnApp.swift */,
 				002317252BAD9C660059B184 /* ContentView.swift */,
+				0023174F2BADB8D20059B184 /* CircleImage.swift */,
+				002317512BADBA350059B184 /* MapView.swift */,
 				002317272BAD9C680059B184 /* Assets.xcassets */,
 				002317292BAD9C680059B184 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				002317262BAD9C660059B184 /* ContentView.swift in Sources */,
+				002317522BADBA350059B184 /* MapView.swift in Sources */,
 				002317242BAD9C660059B184 /* vpnApp.swift in Sources */,
+				002317502BADB8D20059B184 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
